@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог пивоварен</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Введите название или город...">
+        <button id="searchBtn">Найти</button>
+    </div>
+
+    <div id="loading">Загрузка...</div>
+
+    <div id="cardsContainer" class="cards-grid"></div>
+
+    <div class="pagination">
+        <button id="prevBtn" disabled>Назад</button>
+        <span id="pageIndicator">Страница 1</span>
+        <button id="nextBtn">Вперед</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
